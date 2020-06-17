@@ -85,4 +85,4 @@ if __name__ == '__main__':
     vocab_dir = os.path.join(base_dir, 'cnews.vocab.txt')
     categories, cat_to_id = read_category()
     words, word_to_id = read_vocab(vocab_dir)
-    freeze_graph_test(pb_path=out_pb_path,test_path=test_dir)
+    freeze_graph_test(pb_path=out_pb_path, test_path=test_dir)
